@@ -1,0 +1,106 @@
+.page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://wallpapercave.com/wp/wp5571652.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.page h1 {
+  font-size: 200px;
+  color: #f18181;
+}
+
+.page .container h1 {
+  font-size: 100px;
+  margin-top: -200px;
+  margin-bottom: 100px;
+  color: #f18181;
+}
+
+.page .container .optional {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page #btYes-2 {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  opacity: 0;
+  cursor: default;
+}
+
+.page #btYes-3 {
+  position: absolute;
+  bottom: 200px;
+  left: 500px;
+  opacity: 0;
+  cursor: default;
+}
+
+.page #btYes-4 {
+  position: absolute;
+  right: 300px;
+  bottom: 450px;
+  opacity: 0;
+  cursor: default;
+}
+
+.page #btYes-5 {
+  position: absolute;
+  right: 100px;
+  bottom: 150px;
+  opacity: 0;
+  cursor: default;
+}
+
+.btn {
+  padding: 10px 50px;
+  font-size: 30px;
+  min-width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn ion-icon {
+  margin-left: 10px;
+}
+
+.btn-Yes {
+  background-color: #d50808;
+  color: #2f2c2c;
+}
+
+.btn-No {
+  background-color: #2f2c2c;
+  color: #d50808;
+}
+/*# sourceMappingURL=index.css.map */
